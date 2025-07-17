@@ -1,0 +1,1167 @@
+<!doctype html>
+<html lang="en" class="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Giopio is a Digital Agency">
+  <meta property="og:title" content="Giopio">
+  <meta property="og:type" content="Digital Agency">
+  <meta property="og:url" content="https://giopio.com/">
+  <meta property="og:image" content="https://giopio.com/wp-content/uploads/2023/11/main-logo-dark.png">
+  <meta name="theme-color" content="#FF9040">
+
+  <!-- tailwind CSS start -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
+
+  <!-- initially set dark mode -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css">
+  <script src="./assets/js/dark-mode.js"></script>
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <!-- tailwind CSS end -->
+
+  <title>Resume -- Home </title>
+</head>
+
+<body class="relative bg-main dark:bg-dark-main anim">
+
+  <!-- header section start -->
+  <header class="w-full py-5 anim md:py-8 lg:py-10 xl:py-[42px]">
+    <div class="container">
+      <div class="nav-area relative flex items-center justify-between anim">
+        <!-- brand -->
+        <div class="text-start">
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="logo"
+              class="max-w-32 md:max-w-40 lg:max-w-44 xl:max-w-[318px] ltd anim">
+            <img src="./assets/images/dark-mode/logo.svg" alt="logo"
+              class="max-w-32 md:max-w-40 lg:max-w-44 xl:max-w-[318px] dtl anim">
+          </a>
+        </div>
+        <!-- brand -->
+
+        <!-- navigation -->
+        <nav
+          class="w-[85%] text-center fixed -top-4 z-[9999] left-0 bg-second mt-4 py-6 h-screen hidden anim max-w-[400px] lg:flex lg:bg-transparent lg:h-auto lg:relative lg:items-center lg:w-full lg:top-auto lg:p-0 lg:left-auto lg:max-w-max xl:ml-auto md:mt-0 lg:mr-12 xl:mr-14"
+          id="navigationMenu">
+          <ul
+            class="flex justify-center flex-col gap-y-5 items-center h-[90%] anim lg:flex-row lg:gap-y-0 lg:gap-x-7 xl:gap-x-8">
+            <li><a href="index.html" class="menu-link active">Home</a></li>
+            <li><a href="about.html" class="menu-link">About</a></li>
+            <li><a href="resume.html" class="menu-link">Resume</a></li>
+            <li><a href="portfolio.html" class="menu-link">Portfolio</a></li>
+            <li><a href="blog.html" class="menu-link">Blog</a></li>
+          </ul>
+          <ul class="pb-4 flex justify-center items-center gap-x-3 anim lg:hidden">
+            <li><a href="contact.html"
+                class="flex py-3 px-4 rounded-full bg-white text-second text-sm max-w-32 text-center justify-center font-bold ">Contact
+                Me</a></li>
+            <li>
+              <button type="button" id="toggleDarkModeMobile"
+                class="w-10 h-10 p-2 rounded-full bg-white flex items-center justify-center">
+                <img src="./assets/images/moon.svg" alt="moon">
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <!-- navigation -->
+
+        <!-- right side action -->
+        <ul class="flex gap-x-2 items-center xl:gap-x-[10px]">
+          <li><a href="contact.html"
+              class="flex py-2 px-4 rounded-full bg-second text-white text-sm xl:h-[47px] xl:text-base xl:py-[18px] xl:px-[30px] xl:justify-center xl:items-center xl:font-medium anim hover:bg-white hover:text-second border hover:border-third anim dark:border-third anim">Contact
+              Me</a></li>
+          <li>
+            <button type="button" id="toggleDarkMode"
+              class="w-8 h-8 p-2 rounded-full bg-white flex group items-center justify-center xl:w-[47px] dark:bg-dark-half dark:border-[#343941] xl:h-[47px] border hover:border-third anim">
+              <img src="./assets/images/moon.svg" alt="moon" class="anim group-hover:rotate-[360deg] anim ltd">
+              <img src="./assets/images/dark-mode/sun.svg" alt="sun" class="anim group-hover:rotate-[360deg] anim dtl">
+            </button>
+          </li>
+          <li class="lg:hidden">
+            <button id="menuToggle" type="button"
+              class="rounded-full bg-white flex items-center justify-center gap-y-1 flex-col w-8 h-8 p-2 anim dark:bg-dark-half">
+              <span class="h-[2px] w-5 bg-second block"></span>
+              <span class="h-[2px] w-5  bg-second block"></span>
+              <span class="h-[2px] w-5 bg-second block"></span>
+            </button>
+          </li>
+        </ul>
+        <!-- right side action -->
+      </div>
+    </div>
+  </header>
+  <!-- header section end -->
+
+  <!-- hero section start -->
+  <section class="w-full">
+    <div style="background-image: url('./assets/images/hero-bg-large.png');"
+      class="py-16 bg-center bg-no-repeat bg-cover xl:py-[165px] lg:w-[90%] lg:mx-auto lg:rounded-[20px] xl:w-[93%]">
+      <div class="container">
+        <div class="w-full xl:flex xl:items-center">
+          <div class="text-center xl:w-[55%] xl:ml-auto xl:text-start">
+            <h1
+              class="text-4xl text-white font-extrabold leading-[120%] mb-[30px] md:text-5xl xl:text-[52px] xl:leading-[140%] xl:mb-[40px]">
+              Welcome To <span class="xl:block"></span>
+              My Personal Portfolio</h1>
+            <a href="#"
+              class="hero-bttn text-white inline-flex gap-x-2 xl:text-lg xl:h-[58px] items-center anim hover:bg-second hover:border-second">My
+              Video Resume <img src="./assets/images/caret-icon.svg" alt="caret" class="xl:shrink-0 xl:w-[14px]"></a>
+          </div>
+          <div class="text-center mt-10 xl:mt-0 xl:min-w-32 xl:text-start">
+            <ul class="flex items-center justify-center xl:flex-col xl:gap-y-2 xl:items-start">
+              <li>
+                <a href="#"
+                  class="inline-flex rounded-full text-white hover:bg-half p-2 px-3 gap-x-2 items-center text-sm group anim h-[42px]">
+                  <img src="./assets/images/facebook-social.svg" alt="fb">
+                  <span class="hidden group-hover:inline-block anim">Faceook</span>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  class="inline-flex rounded-full text-white hover:bg-half p-2 px-3 gap-x-2 items-center text-sm group anim h-[42px]">
+                  <img src="./assets/images/x-social.svg" alt="X">
+                  <span class="hidden group-hover:inline-block anim">X</span>
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  class="inline-flex rounded-full text-white hover:bg-half p-2 px-3 gap-x-2 items-center text-sm group anim h-[42px]">
+                  <img src="./assets/images/dribble-social.svg" alt="db">
+                  <span class="hidden group-hover:inline-block anim">Dribble</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero section end -->
+
+  <!-- main section start -->
+  <section class="main-section mb-20 xl:mb-28">
+    <div class="container">
+      <div class="lg:grid lg:grid-cols-12 lg:gap-x-16 xl:gap-x-20 lg:items-start">
+        <!-- left side -->
+        <div class="w-full lg:col-span-5 xl:col-span-4 2xl:mr-4 -mt-10 lg:-mt-32 xl:-mt-[28rem] overflow-hidden">
+          <div
+            class="w-full bg-white lg:h-auto rounded-[20px] py-10 px-5 xl:py-14 2xl:py-[80px] xl:px-[50px] anim dark:bg-[#2C3037] mb-6 lg:mb-0"
+            id="mySidebar">
+            <div class="text-center">
+              <img src="./assets/images/avatar.png" alt="avatar"
+                class="w-[130px] h-[130px] rounded-full mx-auto object-cover xl:w-[210px] xl:h-[210px]">
+            </div>
+            <div class="text-center my-3 xl:my-5">
+              <div
+                class="bg-ash inline-flex p-[10px] px-4 rounded-full text-sm font-medium text-first gap-x-[10px] items-center opacity-80 dark:bg-dark-half dark:text-dark-txt anim">
+                <div class="relative w-2 h-2 bg-green-500 rounded-full animate-blink">
+                  <div
+                    class="absolute top-[-0.3125rem] left-[-0.3125rem] w-[15px] h-[15x] border-8 border-green-500 rounded-full opacity-0 animate-wave">
+                  </div>
+                </div>
+                Freelance Available
+              </div>
+            </div>
+            <div class="text-center my-3 xl:my-5">
+              <h2 class="text-[#343941] text-3xl font-bold xl:text-4xl mb-3 xl:mb-5 anim dark:text-white">Kori Anderson
+              </h2>
+              <span
+                class="bg-ash inline-flex py-[10px] px-5 rounded-full text-lg font-medium text-first gap-x-[10px] items-center opacity-80 anim dark:text-dark-txt dark:bg-dark-half">
+                UI / UX Designer
+              </span>
+            </div>
+            <div class="overflow-hidden">
+              <div class="text-start my-8 flex flex-col gap-y-6 px-4 lg:px-2 xl:px-0 xl:my-[50px]">
+                <!-- item -->
+                <div class="flex gap-x-[10px] items-center">
+                  <div class="icon w-11 h-11 rounded-[10px] bg-[#FF6BF01A] flex justify-center items-center shrink-0">
+                    <img src="./assets/images/call-icon.svg" alt="icon">
+                  </div>
+                  <div class="w-full">
+                    <h6 class="text-base text-[#9B3D35] font-normal tracking-[3.2px] anim dark:text-dark-txt">PHONE</h6>
+                    <p class="text-base text-first font-medium anim dark:text-dark-txt">123 456 789 123</p>
+                  </div>
+                </div>
+                <!-- item -->
+                <!-- item -->
+                <div class="flex gap-x-[10px] items-center">
+                  <div class="icon w-11 h-11 rounded-[10px] bg-[#42D0EF1A] flex justify-center items-center shrink-0">
+                    <img src="./assets/images/mail-icon.svg" alt="icon">
+                  </div>
+                  <div class="w-full">
+                    <h6 class="text-base text-[#9B3D35] font-normal tracking-[3.2px] anim dark:text-dark-txt">EMAIL</h6>
+                    <p class="text-base text-first font-medium anim dark:text-dark-txt">example@gmail.com</p>
+                  </div>
+                </div>
+                <!-- item -->
+                <!-- item -->
+                <div class="flex gap-x-[10px] items-center">
+                  <div class="icon w-11 h-11 rounded-[10px] bg-[#F89D151A] flex justify-center items-center shrink-0">
+                    <img src="./assets/images/location-icon.svg" alt="icon">
+                  </div>
+                  <div class="w-full">
+                    <h6 class="text-base text-[#9B3D35] font-normal tracking-[3.2px] anim dark:text-dark-txt">AREA</h6>
+                    <p class="text-base text-first font-medium anim dark:text-dark-txt">192 lotifpur, colony UK London
+                    </p>
+                  </div>
+                </div>
+                <!-- item -->
+              </div>
+
+              <div class="text-center">
+                <a href="#"
+                  class="inline-flex items-center border-2 border-second rounded-full py-5 px-7 h-[62px] justify-center gap-x-2 text-lg font-semibold text-first anim hover:bg-second hover:text-white group anim dark:border-third dark:text-white">Download
+                  CV
+                  <img src="./assets/images/download-icon.svg" alt="a" class="anim group-hover:hidden ltd">
+                  <img src="./assets/images/download-icon-w.svg" alt="a" class="anim group-hover:hidden dtl">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- left side -->
+
+        <!-- main block -->
+        <div
+          class="w-full lg:col-span-7 xl:col-span-8 bg-white rounded-[20px] lg:-mt-10 xl:-mt-[99px] py-10 xl:py-20 anim dark:bg-[#2C3037]">
+          <!-- about start -->
+          <div class="w-full px-8 xl:px-20">
+            <h4 class="text-first font-semibold text-2xl mb-5 xl:text-[28px] xl:mb-[30px] anim dark:text-white">About Me
+            </h4>
+
+            <p
+              class="text-first font-normal leading-[130%] text-sm mb-5 opacity-80 xl:text-base xl:mb-[30px] anim dark:text-dark-txt">
+              I'm
+              Creative Director and UI/UX Designer from
+              Sydney, Australia, working in web development and print
+              media. I enjoy turning complex problems into simple,
+              beautiful and intuitive designs.</p>
+
+            <p class="text-first font-normal leading-[130%] text-sm opacity-80 xl:text-base anim dark:text-dark-txt">My
+              aim is to bring across
+              your message and identity
+              in the most creative way.
+              I created web design for many famous brand companies.</p>
+          </div>
+          <!-- about end -->
+
+          <!-- services start -->
+          <div class="w-full px-8 xl:px-20">
+            <h4
+              class="text-first font-semibold text-2xl mb-5 mt-16 xl:mt-20 xl:text-[28px] xl:mb-[40px] anim dark:text-white">
+              What I Do</h4>
+            <div class="grid gap-4 md:grid-cols-2 md:gap-5 xl:gap-[30px]">
+              <!-- services box -->
+              <div
+                class="p-5 border border-second rounded-[10px] flex gap-x-4 lg:flex-col lg:gap-y-2 xl:flex-row xl:gap-y-0 anim dark:border-[#343941]">
+                <div class="icon shrink-0 w-11 h-11 rounded-[10px] bg-[#644DEE1A] flex justify-center items-center">
+                  <img src="./assets/images/services-icon-01.svg" alt="icon">
+                </div>
+                <div class="text-start">
+                  <h6 class="text-lg font-medium text-first mb-2 xl:text-xl xl:mb-2 anim dark:text-white">UI / UX Design
+                  </h6>
+                  <p
+                    class="text-sm text-first opacity-80 font-normal -tracking-[0.16px] xl:text-base anim dark:text-dark-txt">
+                    At Giopio, we
+                    offer
+                    an effective
+                    and cost-effective full suite of
+                    web design services.</p>
+                </div>
+              </div>
+              <!-- services box -->
+              <!-- services box -->
+              <div
+                class="p-5 border border-second rounded-[10px] flex gap-x-4 lg:flex-col lg:gap-y-2 xl:flex-row xl:gap-y-0 anim dark:border-[#343941]">
+                <div class="icon shrink-0 w-11 h-11 rounded-[10px] bg-[#42D0EF1A] flex justify-center items-center">
+                  <img src="./assets/images/services-icon-02.svg" alt="icon">
+                </div>
+                <div class="text-start">
+                  <h6 class="text-lg font-medium text-first mb-2 xl:text-xl xl:mb-2 anim dark:text-white">Web Design
+                  </h6>
+                  <p
+                    class="text-sm text-first opacity-80 font-normal -tracking-[0.16px] xl:text-base anim dark:text-dark-txt">
+                    At Giopio, we
+                    offer
+                    an effective
+                    and cost-effective full suite of
+                    web design services.</p>
+                </div>
+              </div>
+              <!-- services box -->
+              <!-- services box -->
+              <div
+                class="p-5 border border-second rounded-[10px] flex gap-x-4 lg:flex-col lg:gap-y-2 xl:flex-row xl:gap-y-0 anim dark:border-[#343941]">
+                <div class="icon shrink-0 w-11 h-11 rounded-[10px] bg-[#F89D151A] flex justify-center items-center">
+                  <img src="./assets/images/services-icon-03.svg" alt="icon">
+                </div>
+                <div class="text-start">
+                  <h6 class="text-lg font-medium text-first mb-2 xl:text-xl xl:mb-2 anim dark:text-white">Theme
+                    Development</h6>
+                  <p
+                    class="text-sm text-first opacity-80 font-normal -tracking-[0.16px] xl:text-base anim dark:text-dark-txt">
+                    At Giopio, we
+                    offer
+                    an effective
+                    and cost-effective full suite of
+                    web design services.</p>
+                </div>
+              </div>
+              <!-- services box -->
+              <!-- services box -->
+              <div
+                class="p-5 border border-second rounded-[10px] flex gap-x-4 lg:flex-col lg:gap-y-2 xl:flex-row xl:gap-y-0 anim dark:border-[#343941]">
+                <div class="icon shrink-0 w-11 h-11 rounded-[10px] bg-[#9B3D351A] flex justify-center items-center">
+                  <img src="./assets/images/services-icon-04.svg" alt="icon">
+                </div>
+                <div class="text-start">
+                  <h6 class="text-lg font-medium text-first mb-2 xl:text-xl xl:mb-2 anim dark:text-white">Ecommerce</h6>
+                  <p
+                    class="text-sm text-first opacity-80 font-normal -tracking-[0.16px] xl:text-base anim dark:text-dark-txt">
+                    At Giopio, we
+                    offer
+                    an effective
+                    and cost-effective full suite of
+                    web design services.</p>
+                </div>
+              </div>
+              <!-- services box -->
+            </div>
+          </div>
+          <!-- services end -->
+
+          <!-- education and cover letter -->
+          <div class="w-ful mt-10 md:mt-14 lg:mt-16 xl:mt-20 px-8 xl:px-20">
+            <div class="grid gap-y-8 xl:grid-cols-12 xl:gap-y-0 xl:gap-x-4">
+              <div class="text-start xl:col-span-5">
+                <h4 class="text-first font-semibold text-2xl xl:text-[28px] mb-5 xl:mb-10 anim dark:text-white">
+                  Education</h4>
+
+                <div class="grid gap-y-5 md:grid-cols-2 md:gap-x-5 lg:grid-cols-1 lg:gap-x-0 xl:gap-y-8">
+                  <!-- block -->
+                  <div class="w-full">
+                    <h6
+                      class="inline-flex bg-ash py-[10px] px-[18px] rounded-full text-third text-sm font-normal anim dark:bg-dark-half dark:text-dark-txt">
+                      2018
+                      - 2020</h6>
+                    <h4 class="my-2 text-first font-medium text-sm xl:text-base xl:my-3 anim dark:text-white">P.D In
+                      Horriblensess -
+                      University</h4>
+                    <p class="text-sm font-normal text-third anim dark:text-dark-txt">Los Angeles, CA</p>
+                  </div>
+                  <!-- block -->
+                  <!-- block -->
+                  <div class="w-full">
+                    <h6
+                      class="inline-flex bg-ash py-[10px] px-[18px] rounded-full text-third text-sm font-normal anim dark:bg-dark-half dark:text-dark-txt">
+                      2020
+                      - 2022</h6>
+                    <h4 class="my-2 text-first font-medium text-sm xl:text-base xl:my-3 anim dark:text-white">Computer
+                      Science - UI / UX</h4>
+                    <p class="text-sm font-normal text-third anim dark:text-dark-txt">Technical Institute</p>
+                  </div>
+                  <!-- block -->
+                  <!-- block -->
+                  <div class="w-full">
+                    <h6
+                      class="inline-flex bg-ash py-[10px] px-[18px] rounded-full text-third text-sm font-normal anim dark:bg-dark-half dark:text-dark-txt">
+                      2020
+                      - 2022</h6>
+                    <h4 class="my-2 text-first font-medium text-sm xl:text-base xl:my-3 anim dark:text-white">Computer
+                      Science - UI / UX</h4>
+                    <p class="text-sm font-normal text-third anim dark:text-dark-txt">Technical Institute</p>
+                  </div>
+                  <!-- block -->
+                  <!-- block -->
+                  <div class="w-full">
+                    <h6
+                      class="inline-flex bg-ash py-[10px] px-[18px] rounded-full text-third text-sm font-normal anim dark:bg-dark-half dark:text-dark-txt">
+                      2020
+                      - 2022</h6>
+                    <h4 class="my-2 text-first font-medium text-sm xl:text-base xl:my-3 anim dark:text-white">B.S
+                      Information Technology</h4>
+                    <p class="text-sm font-normal text-third anim dark:text-dark-txt">Los Angeles, CA</p>
+                  </div>
+                  <!-- block -->
+                </div>
+              </div>
+              <div class="text-start xl:col-span-7">
+                <h4 class="text-first font-semibold text-2xl xl:text-[28px] mb-5 xl:mb-10 anim dark:text-white">Cover
+                  Letter</h4>
+
+                <div
+                  class="w-full bg-ash2 p-6 rounded-xl flex flex-col gap-y-6 xl:p-[34px] xl:gap-y-[30px] anim dark:bg-[#343941]">
+                  <h6 class="text-sm font-medium text-third xl:text-base anim dark:text-dark-txt">Lorem ipsum dolor sit
+                    amet, consectetur
+                    adipiscing elit. Viverra tristique placerat
+                    massa consectetur quisque fames.</h6>
+
+                  <p class="text-sm font-normal text-third leading-[160%] xl:text-base anim dark:text-dark-txt">Lorem
+                    ipsum dolor sit amet,
+                    consectetur
+                    adipiscing elit. Viverra tristique placerat in
+                    massa consectetur quisque. Nunc fames
+                    lectus in libero aliquet. Mauris egestas
+                    nulla arcu, ut vestibulum diam vulputate
+                    non. Ut massa mauris, condimentum
+                    tincidunt mattis euismod dolor.</p>
+
+                  <p class="text-sm font-normal text-third leading-[160%] xl:text-base anim dark:text-dark-txt">Faucibus
+                    sed tristique fames sed
+                    aliquet
+                    ultricies eget viverra arcu. Vitae faucibus
+                    diam consequat maecenas. Turpis
+                    metus sit diam varius quam</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- education and cover letter -->
+
+          <!-- expertise start -->
+          <div
+            class="px-8 xl:px-20 bg-ash2 my-12 py-12 md:my-14 lg:my-16 xl:my-20 md:py-14 lg:py-16 xl:py-20 anim dark:bg-[#343941]">
+            <h4
+              class="text-first font-semibold text-2xl mb-5 xl:text-[28px] md:mb-7 lg:mb-8 xl:mb-[40px] anim dark:text-white">
+              Expertise
+            </h4>
+
+            <div class="grid gap-y-8 md:grid-cols-2 md:gap-x-6 xl:gap-[30px]">
+              <!-- expert block -->
+              <div class="w-full border rounded-[10px] relative border-[#1D1D1D1A] anim dark:border-[#424850]">
+                <div
+                  class="flex items-start justify-between p-5 lg:flex-col lg:gap-y-5 xl:p-[25px] xl:flex-row xl:gap-y-0">
+                  <div class="icon flex items-center gap-x-4">
+                    <img src="./assets/images/figma-icon.svg" alt="figma">
+                    <p class="text-base font-normal text-first xl:text-lg anim dark:text-white">Figma</p>
+                  </div>
+                  <span
+                    class="text-sm font-medium text-first rounded-full border border-[#1D1D1D1A] py-[2px] xl:py-1 flex px-2 -mt-2 -mr-2 xl:-mt-3 xl:-mr-3 anim dark:text-white dark:border-[#424850]">95%</span>
+                </div>
+                <div
+                  class="progress bg-[#9B3D3533] h-[5px] w-[90%] mx-auto absolute left-[5%] bottom-0 rounded-full anim dark:bg-[#686D74]">
+                  <div class="progress-bar bg-second w-[70%] h-full rounded-full"></div>
+                </div>
+
+              </div>
+              <!-- expert block -->
+              <!-- expert block -->
+              <div class="w-full border rounded-[10px] relative border-[#1D1D1D1A] anim dark:border-[#424850]">
+                <div
+                  class="flex items-start justify-between p-5 lg:flex-col lg:gap-y-5 xl:p-[25px] xl:flex-row xl:gap-y-0">
+                  <div class="icon flex items-center gap-x-4">
+                    <img src="./assets/images/expertise-icon-02.svg" alt="figma">
+                    <p class="text-base font-normal text-first xl:text-lg anim dark:text-white">Adobe Illustrator</p>
+                  </div>
+                  <span
+                    class="text-sm font-medium text-first rounded-full border border-[#1D1D1D1A] py-[2px] xl:py-1 flex px-2 -mt-2 -mr-2 xl:-mt-3 xl:-mr-3 anim dark:text-white dark:border-[#424850]">95%</span>
+                </div>
+                <div
+                  class="progress bg-[#9B3D3533] h-[5px] w-[90%] mx-auto absolute left-[5%] bottom-0 rounded-full anim dark:bg-[#686D74]">
+                  <div class="progress-bar bg-second w-[90%] h-full rounded-full"></div>
+                </div>
+              </div>
+              <!-- expert block -->
+              <!-- expert block -->
+              <div class="w-full border rounded-[10px] relative border-[#1D1D1D1A] anim dark:border-[#424850]">
+                <div
+                  class="flex items-start justify-between p-5 lg:flex-col lg:gap-y-5 xl:p-[25px] xl:flex-row xl:gap-y-0">
+                  <div class="icon flex items-center gap-x-4">
+                    <img src="./assets/images/expertise-icon-03.svg" alt="figma">
+                    <p class="text-base font-normal text-first xl:text-lg anim dark:text-white">Skatch</p>
+                  </div>
+                  <span
+                    class="text-sm font-medium text-first rounded-full border border-[#1D1D1D1A] py-[2px] xl:py-1 flex px-2 -mt-2 -mr-2 xl:-mt-3 xl:-mr-3 anim dark:text-white dark:border-[#424850]">95%</span>
+                </div>
+                <div
+                  class="progress bg-[#9B3D3533] h-[5px] w-[90%] mx-auto absolute left-[5%] bottom-0 rounded-full anim dark:bg-[#686D74]">
+                  <div class="progress-bar bg-second w-[80%] h-full rounded-full"></div>
+                </div>
+              </div>
+              <!-- expert block -->
+              <!-- expert block -->
+              <div class="w-full border rounded-[10px] relative border-[#1D1D1D1A] anim dark:border-[#424850]">
+                <div
+                  class="flex items-start justify-between p-5 lg:flex-col lg:gap-y-5 xl:p-[25px] xl:flex-row xl:gap-y-0">
+                  <div class="icon flex items-center gap-x-4">
+                    <img src="./assets/images/expertise-icon-04.svg" alt="figma">
+                    <p class="text-base font-normal text-first xl:text-lg anim dark:text-white">Adobe Photoshop</p>
+                  </div>
+                  <span
+                    class="text-sm font-medium text-first rounded-full border border-[#1D1D1D1A] py-[2px] xl:py-1 flex px-2 -mt-2 -mr-2 xl:-mt-3 xl:-mr-3 anim dark:text-white dark:border-[#424850]">95%</span>
+                </div>
+                <div
+                  class="progress bg-[#9B3D3533] h-[5px] w-[90%] mx-auto absolute left-[5%] bottom-0 rounded-full anim dark:bg-[#686D74]">
+                  <div class="progress-bar bg-second w-[90%] h-full rounded-full"></div>
+                </div>
+              </div>
+              <!-- expert block -->
+            </div>
+
+          </div>
+          <!-- expertise end -->
+
+          <!-- work experience start -->
+          <div class="w-full px-8 xl:px-20">
+            <h4
+              class="text-first font-semibold text-2xl mb-5 xl:text-[28px] md:mb-7 lg:mb-8 xl:mb-[40px] anim dark:text-white">
+              Work
+              Experience</h4>
+
+            <div class="w-full grid gap-y-8 xl:gap-y-20">
+              <!-- exper block -->
+              <div class="w-full grid grid-cols-12 gap-x-4 relative">
+                <!-- left bar -->
+                <span
+                  class="flex bg-[#9B3D3533] w-[1px] h-full absolute left-[21px] top-12 xl:top-24 anim dark:bg-half"></span>
+                <!-- left bar -->
+                <div class="col-span-2 xl:col-span-1 flex justify-center items-start max-w-10 mt-12">
+                  <h6 class="border border-[#9B3D3533] rounded-full text-sm font-medium text-third py-[7px] px-3 whitespace-nowrap -rotate-90 inline-flex
+                       bg-white anim dark:border-[#343941] dark:bg-dark-half dark:text-dark-txt">
+                    2022 - Present</h6>
+                </div>
+                <div class="text-start col-span-10 xl:col-span-11 xl:pl-2">
+                  <h5 class="text-base font-medium text-first mb-2 anim dark:text-white">SR. UI / UX Designer</h5>
+                  <h6 class="text-sm font-normal text-third mb-5 xl:text-base anim dark:text-dark-txt">GioPio Services
+                    Point</h6>
+                  <p class="text-sm leading-[160%] text-third xl:text-base anim dark:text-dark-txt">Lorem ipsum dolor
+                    sit amet, consectetur
+                    adipiscing elit. Viverra tristique placerat
+                    in massa consectetur quisque. Nunc ac fames lectus in libero aliquet. Mauris
+                    nulla arcu, ut vestibulum diam vulputate non.</p>
+
+                  <ul class="mt-5 flex flex-col gap-y-4">
+                    <li
+                      class="text-sm leading-[140%] text-first flex gap-x-2 items-center xl:text-base xl:gap-x-3 anim dark:text-dark-txt">
+                      <span class="flex w-[10px] h-[10px] rounded-full bg-[#1d1d1d] shrink-0 anim dark:bg-white"></span>
+                      Lorem ipsum dolor
+                      sit amet, consectetur adipiscing viverra tristique placerat.
+                    </li>
+                    <li
+                      class="text-sm leading-[140%] text-first flex gap-x-2 items-center xl:text-base xl:gap-x-3 anim dark:text-dark-txt">
+                      <span class="flex w-[10px] h-[10px] rounded-full bg-[#1d1d1d] shrink-0 anim dark:bg-white"></span>
+                      Nunc ac fames
+                      lectus in libero aliquet mauris egestas nulla Vulputate.
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- exper block -->
+              <!-- exper block -->
+              <div class="w-full grid grid-cols-12 gap-x-4 relative">
+                <!-- left bar -->
+                <span
+                  class="flex bg-[#9B3D3533] w-[1px] h-full absolute left-[21px] top-12 xl:top-24 anim dark:bg-half"></span>
+                <!-- left bar -->
+                <div class="col-span-2 xl:col-span-1 flex justify-center items-start max-w-10 mt-12">
+                  <h6 class="border border-[#9B3D3533] rounded-full text-sm font-medium text-third py-[7px] px-3 whitespace-nowrap -rotate-90 inline-flex
+                       bg-white anim dark:border-[#343941] dark:bg-dark-half dark:text-dark-txt">
+                    2020 - 2022</h6>
+                </div>
+                <div class="text-start col-span-10 xl:col-span-11 xl:pl-2">
+                  <h5 class="text-base font-medium text-first mb-2 anim dark:text-white">SR. UI / UX Designer</h5>
+                  <h6 class="text-sm font-normal text-third mb-5 xl:text-base anim dark:text-dark-txt">GioPio Services
+                    Point</h6>
+                  <p class="text-sm leading-[160%] text-third xl:text-base anim dark:text-dark-txt">Lorem ipsum dolor
+                    sit amet, consectetur
+                    adipiscing elit. Viverra tristique placerat
+                    in massa consectetur quisque. Nunc ac fames lectus in libero aliquet. Mauris
+                    nulla arcu, ut vestibulum diam vulputate non.</p>
+
+                  <ul class="mt-5 flex flex-col gap-y-4">
+                    <li
+                      class="text-sm leading-[140%] text-first flex gap-x-2 items-center xl:text-base xl:gap-x-3 anim dark:text-dark-txt">
+                      <span class="flex w-[10px] h-[10px] rounded-full bg-[#1d1d1d] shrink-0 anim dark:bg-white"></span>
+                      Lorem ipsum dolor
+                      sit amet, consectetur adipiscing viverra tristique placerat.
+                    </li>
+                    <li
+                      class="text-sm leading-[140%] text-first flex gap-x-2 items-center xl:text-base xl:gap-x-3 anim dark:text-dark-txt">
+                      <span class="flex w-[10px] h-[10px] rounded-full bg-[#1d1d1d] shrink-0 anim dark:bg-white"></span>
+                      Nunc ac fames
+                      lectus in libero aliquet mauris egestas nulla Vulputate.
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- exper block -->
+              <!-- exper block -->
+              <div class="w-full grid grid-cols-12 gap-x-4 relative">
+
+                <div class="col-span-2 xl:col-span-1 flex justify-center items-start max-w-10 mt-12">
+                  <h6 class="border border-[#9B3D3533] rounded-full text-sm font-medium text-third py-[7px] px-3 whitespace-nowrap -rotate-90 inline-flex
+                       bg-white anim dark:border-[#343941] dark:bg-dark-half dark:text-dark-txt anim ">
+                    2018 - 2020</h6>
+                </div>
+                <div class="text-start col-span-10 xl:col-span-11 xl:pl-2">
+                  <h5 class="text-base font-medium text-first mb-2 anim dark:text-white">SR. UI / UX Designer</h5>
+                  <h6 class="text-sm font-normal text-third mb-5 xl:text-base anim dark:text-dark-txt">GioPio Services
+                    Point</h6>
+                  <p class="text-sm leading-[160%] text-third xl:text-base anim dark:text-dark-txt">Lorem ipsum dolor
+                    sit amet, consectetur
+                    adipiscing elit. Viverra tristique placerat
+                    in massa consectetur quisque. Nunc ac fames lectus in libero aliquet. Mauris
+                    nulla arcu, ut vestibulum diam vulputate non.</p>
+
+                  <ul class="mt-5 flex flex-col gap-y-4">
+                    <li
+                      class="text-sm leading-[140%] text-first flex gap-x-2 items-center xl:text-base xl:gap-x-3 anim dark:text-dark-txt">
+                      <span class="flex w-[10px] h-[10px] rounded-full bg-[#1d1d1d] shrink-0 anim dark:bg-white"></span>
+                      Lorem ipsum dolor
+                      sit amet, consectetur adipiscing viverra tristique placerat.
+                    </li>
+                    <li
+                      class="text-sm leading-[140%] text-first flex gap-x-2 items-center xl:text-base xl:gap-x-3 anim dark:text-dark-txt">
+                      <span class="flex w-[10px] h-[10px] rounded-full bg-[#1d1d1d] shrink-0 anim dark:bg-white"></span>
+                      Nunc ac fames
+                      lectus in libero aliquet mauris egestas nulla Vulputate.
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- exper block -->
+            </div>
+
+          </div>
+          <!-- work experience end -->
+
+          <!-- portfolio section start -->
+          <div class="w-full px-8 xl:px-20 mt-10 xl:my-20">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+              <h4 class="text-first font-semibold text-2xl mb-5 xl:text-[28px] md:mb-0 anim dark:text-white">
+                Portfolio</h4>
+
+              <!-- tab -->
+              <ul class="flex items-center justify-center gap-x-3">
+                <li><button type="button"
+                    class="bg-second text-white py-[6px] px-[14px] rounded-full text-sm font-medium anim hover:bg-second hover:text-white xl:text-base">All</button>
+                </li>
+                <li><button type="button"
+                    class="bg-[#9B3D350D] text-first py-[6px] px-[14px] rounded-full text-sm font-medium anim hover:bg-second hover:text-white xl:text-base anim dark:bg-dark-half dark:text-white dark:hover:bg-second">Mockup</button>
+                </li>
+                <li><button type="button"
+                    class="bg-[#9B3D350D] text-first py-[6px] px-[14px] rounded-full text-sm font-medium anim hover:bg-second hover:text-white xl:text-base anim dark:bg-dark-half dark:text-white dark:hover:bg-second">Design</button>
+                </li>
+                <li><button type="button"
+                    class="bg-[#9B3D350D] text-first py-[6px] px-[14px] rounded-full text-sm font-medium anim hover:bg-second hover:text-white xl:text-base anim dark:bg-dark-half dark:text-white dark:hover:bg-second">Logo</button>
+                </li>
+              </ul>
+              <!-- tab -->
+            </div>
+
+            <!-- grid -->
+            <div
+              class="grid w-full mt-5 xl:mt-10 gap-y-4 md:grid-cols-2 md:gap-6 lg:grid-cols-1 xl:grid-cols-2 xl:gap-[30px]">
+              <!-- portfolio block -->
+              <div class="w-full bg-[#9B3D350D] rounded-[20px] p-5 grid gap-y-5 xl:gap-y-[30px] anim dark:bg-[#343941]">
+                <div class="thumbnail">
+                  <img src="./assets/images/portfolio-01.png" alt="portfolio"
+                    class="w-full h-full rounded-[10px] object-cover">
+                </div>
+                <div class="text-start">
+                  <h6 class="text-sm font-normal text-third -tracking-[0.14px] mb-2 anim dark:text-dark-txt">Branding
+                    Identity</h6>
+                  <h4 class="text-base font-semibold -tracking-[0.2px] xl:text-xl anim dark:text-white">Vlogi Template
+                  </h4>
+                </div>
+              </div>
+              <!-- portfolio block -->
+
+              <!-- portfolio block -->
+              <div class="w-full bg-[#644DEE0D] rounded-[20px] p-5 grid gap-y-5 xl:gap-y-[30px] anim dark:bg-[#343941]">
+                <div class="thumbnail">
+                  <img src="./assets/images/portfolio-02.png" alt="portfolio"
+                    class="w-full h-full rounded-[10px] object-cover">
+                </div>
+                <div class="text-start">
+                  <h6 class="text-sm font-normal text-third -tracking-[0.14px] mb-2 anim dark:text-dark-txt">Branding
+                    Identity</h6>
+                  <h4 class="text-base font-semibold -tracking-[0.2px] xl:text-xl anim dark:text-white">Infinity
+                    Template</h4>
+                </div>
+              </div>
+              <!-- portfolio block -->
+
+              <!-- portfolio block -->
+              <div class="w-full bg-[#42D0EF0D] rounded-[20px] p-5 grid gap-y-5 xl:gap-y-[30px] anim dark:bg-[#343941]">
+                <div class="thumbnail">
+                  <img src="./assets/images/portfolio-03.png" alt="portfolio"
+                    class="w-full h-full rounded-[10px] object-cover">
+                </div>
+                <div class="text-start">
+                  <h6 class="text-sm font-normal text-third -tracking-[0.14px] mb-2 anim dark:text-dark-txt">Branding
+                    Identity</h6>
+                  <h4 class="text-base font-semibold -tracking-[0.2px] xl:text-xl anim dark:text-white">Mobile Ui
+                    Template</h4>
+                </div>
+              </div>
+              <!-- portfolio block -->
+
+              <!-- portfolio block -->
+              <div class="w-full bg-[#00E0160D] rounded-[20px] p-5 grid gap-y-5 xl:gap-y-[30px] anim dark:bg-[#343941]">
+                <div class="thumbnail">
+                  <img src="./assets/images/portfolio-04.png" alt="portfolio"
+                    class="w-full h-full rounded-[10px] object-cover">
+                </div>
+                <div class="text-start">
+                  <h6 class="text-sm font-normal text-third -tracking-[0.14px] mb-2 anim dark:text-dark-txt">Branding
+                    Identity</h6>
+                  <h4 class="text-base font-semibold -tracking-[0.2px] xl:text-xl anim dark:text-white">Web Template
+                    Design</h4>
+                </div>
+              </div>
+              <!-- portfolio block -->
+            </div>
+            <!-- grid -->
+          </div>
+          <!-- portfolio section end -->
+
+          <!-- blog section start -->
+          <div class="w-full px-8 xl:px-20 mt-10 xl:my-20">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+              <h4 class="text-first font-semibold text-2xl mb-5 xl:text-[28px] md:mb-0 anim dark:text-white">
+                Blog</h4>
+
+              <!-- tab -->
+              <ul class="flex items-center justify-center gap-x-3">
+                <li><button type="button"
+                    class="bg-second text-white py-[6px] px-[14px] rounded-full text-sm font-medium anim hover:bg-second hover:text-white xl:text-base">All</button>
+                </li>
+                <li><button type="button"
+                    class="bg-[#9B3D350D] text-first py-[6px] px-[14px] rounded-full text-sm font-medium anim hover:bg-second hover:text-white xl:text-base anim dark:bg-dark-half dark:text-white dark:hover:bg-second">Mockup</button>
+                </li>
+                <li><button type="button"
+                    class="bg-[#9B3D350D] text-first py-[6px] px-[14px] rounded-full text-sm font-medium anim hover:bg-second hover:text-white xl:text-base anim dark:bg-dark-half dark:text-white dark:hover:bg-second">Design</button>
+                </li>
+                <li><button type="button"
+                    class="bg-[#9B3D350D] text-first py-[6px] px-[14px] rounded-full text-sm font-medium anim hover:bg-second hover:text-white xl:text-base anim dark:bg-dark-half dark:text-white dark:hover:bg-second">Logo</button>
+                </li>
+              </ul>
+              <!-- tab -->
+            </div>
+
+            <!-- grid -->
+            <div
+              class="grid w-full mt-5 xl:mt-10 gap-y-4 md:grid-cols-2 md:gap-6 lg:grid-cols-1 xl:grid-cols-2 xl:gap-[30px]">
+              <!-- blog item block -->
+              <div class="w-full bg-[#9B3D350D] rounded-[20px] p-5 grid gap-y-5 xl:gap-y-[30px] anim dark:bg-[#343941]">
+                <div class="thumbnail">
+                  <img src="./assets/images/blog-thumbnail-01.png" alt="portfolio"
+                    class="w-full h-full rounded-[10px] object-cover">
+                </div>
+                <div class="text-start xl:mr-6">
+                  <h6 class="text-sm font-normal text-third -tracking-[0.14px] mb-2 anim dark:text-dark-txt">Life Style
+                  </h6>
+                  <h4 class="text-base font-semibold -tracking-[0.2px] xl:text-xl anim dark:text-white">Create your own
+                    beauty
+                    blog with Trueman</h4>
+
+                  <ul class="mt-4 xl:mt-[24px] flex items-center gap-x-4 xl:gap-x-[30px]">
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/heart-icon.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/heart-icon.svg" alt="a" class="anim dtl">
+                        172
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/comment.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/comment.svg" alt="a" class="anim dtl">
+                        510
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/share-icon.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/share-icon.svg" alt="a" class="anim dtl">
+                        20
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- blog item block -->
+              <!-- blog item block -->
+              <div class="w-full bg-[#644DEE0D] rounded-[20px] p-5 grid gap-y-5 xl:gap-y-[30px] anim dark:bg-[#343941]">
+                <div class="thumbnail">
+                  <img src="./assets/images/blog-thumbnail-02.png" alt="portfolio"
+                    class="w-full h-full rounded-[10px] object-cover">
+                </div>
+                <div class="text-start xl:mr-6">
+                  <h6 class="text-sm font-normal text-third -tracking-[0.14px] mb-2 anim dark:text-dark-txt">Life Style
+                  </h6>
+                  <h4 class="text-base font-semibold -tracking-[0.2px] xl:text-xl anim dark:text-white">Make a resume
+                    for
+                    yourself today</h4>
+
+                  <ul class="mt-4 xl:mt-[24px] flex items-center gap-x-4 xl:gap-x-[30px]">
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/heart-icon.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/heart-icon.svg" alt="a" class="anim dtl">
+                        172
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/comment.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/comment.svg" alt="a" class="anim dtl">
+                        510
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/share-icon.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/share-icon.svg" alt="a" class="anim dtl">
+                        20
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- blog item block -->
+              <!-- blog item block -->
+              <div class="w-full bg-[#42D0EF0D] rounded-[20px] p-5 grid gap-y-5 xl:gap-y-[30px] anim dark:bg-[#343941]">
+                <div class="thumbnail">
+                  <img src="./assets/images/blog-thumbnail-03.png" alt="portfolio"
+                    class="w-full h-full rounded-[10px] object-cover">
+                </div>
+                <div class="text-start xl:mr-6">
+                  <h6 class="text-sm font-normal text-third -tracking-[0.14px] mb-2 anim dark:text-dark-txt">Corporate
+                  </h6>
+                  <h4 class="text-base font-semibold -tracking-[0.2px] xl:text-xl anim dark:text-white">Create your own
+                    beauty
+                    blog with Trueman</h4>
+
+                  <ul class="mt-4 xl:mt-[24px] flex items-center gap-x-4 xl:gap-x-[30px]">
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/heart-icon.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/heart-icon.svg" alt="a" class="anim dtl">
+                        172
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/comment.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/comment.svg" alt="a" class="anim dtl">
+                        510
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/share-icon.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/share-icon.svg" alt="a" class="anim dtl">
+                        20
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- blog item block -->
+              <!-- blog item block -->
+              <div class="w-full bg-[#00E0160D] rounded-[20px] p-5 grid gap-y-5 xl:gap-y-[30px] anim dark:bg-[#343941]">
+                <div class="thumbnail">
+                  <img src="./assets/images/blog-thumbnail-04.png" alt="portfolio"
+                    class="w-full h-full rounded-[10px] object-cover">
+                </div>
+                <div class="text-start xl:mr-6">
+                  <h6 class="text-sm font-normal text-third -tracking-[0.14px] mb-2 anim dark:text-dark-txt">Corporate
+                  </h6>
+                  <h4 class="text-base font-semibold -tracking-[0.2px] xl:text-xl anim dark:text-white">Create your own
+                    beauty
+                    blog with Trueman</h4>
+
+                  <ul class="mt-4 xl:mt-[24px] flex items-center gap-x-4 xl:gap-x-[30px]">
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/heart-icon.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/heart-icon.svg" alt="a" class="anim dtl">
+                        172
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/comment.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/comment.svg" alt="a" class="anim dtl">
+                        510
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="flex items-center text-sm font-medium text-first gap-x-2 anim dark:text-dark-txt">
+                        <img src="./assets/images/share-icon.svg" alt="a" class="anim ltd">
+                        <img src="./assets/images/dark-mode/share-icon.svg" alt="a" class="anim dtl">
+                        20
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+              <!-- blog item block -->
+            </div>
+            <!-- grid -->
+
+            <div class="text-center mt-5 md:mt-7 lg:mt-8 xl:mt-10">
+              <a href="#"
+                class="inline-flex items-center border-2 border-third rounded-full py-5 px-7 h-[62px] justify-center gap-x-2 text-lg font-semibold text-first anim hover:bg-second hover:text-white dark:text-white anim">View
+                All Blog</a>
+            </div>
+          </div>
+          <!-- blog section end -->
+
+          <!-- client section start -->
+          <div class="w-full px-8 xl:px-20 bg-ash2 py-8 xl:py-[50px] anim dark:bg-dark-half">
+            <div class="text-center mb-5 md:mb-7 lg:mb-8 xl:mb-10">
+              <h4 class="text-first font-semibold text-2xl mb-5 xl:text-[28px] md:mb-0 anim dark:text-white">
+                Client</h4>
+            </div>
+
+            <!-- logo -->
+            <div class="w-full">
+              <ul class="flex items-center flex-wrap justify-center gap-6 gap-x-8 xl:gap-x-[70px]">
+                <li><a href="#"><img src="./assets/images/client-01.png" alt="client"></a></li>
+                <li><a href="#"><img src="./assets/images/client-02.png" alt="client"></a></li>
+                <li><a href="#"><img src="./assets/images/client-03.png" alt="client"></a></li>
+                <li><a href="#"><img src="./assets/images/client-04.png" alt="client"></a></li>
+              </ul>
+            </div>
+            <!-- logo -->
+
+            <div class="w-[150px] bg-[#9B3D35] h-[1px] mx-auto my-8 xl:my-[50px] opacity-20 anim dark:bg-white"></div>
+
+            <!-- stats -->
+            <div class="w-full grid gap-y-8 md:grid-cols-3 md:gap-y-0 md:gap-x-10">
+              <!-- block -->
+              <div class="block border-l border-third pl-4 anim dark:border-white">
+                <h5 class="text-second !font-medium text-xl xl:text-2xl odometer anim dark:text-white happy-clients">550
+                </h5>
+                <p class="text-[#ADADAD] font-normal text-sm xl:text-lg anim dark:text-dark-txt">Happy Clients</p>
+              </div>
+              <!-- block -->
+              <!-- block -->
+              <div class="block border-l border-third pl-4 anim dark:border-white">
+                <h5 class="text-second !font-medium text-xl xl:text-2xl odometer anim dark:text-white working-hours">
+                  2850 </h5>
+                <p class="text-[#ADADAD] font-normal text-sm xl:text-lg anim dark:text-dark-txt">Working Hours</p>
+              </div>
+              <!-- block -->
+              <!-- block -->
+              <div class="block border-l border-third pl-4 anim dark:border-white">
+                <h5 class="text-second !font-medium text-xl xl:text-2xl odometer anim dark:text-white award-won">20
+                </h5>
+                <p class="text-[#ADADAD] font-normal text-sm xl:text-lg anim dark:text-dark-txt">Awards Won</p>
+              </div>
+              <!-- block -->
+            </div>
+            <!-- stats -->
+          </div>
+          <!-- client section end -->
+
+          <!-- review section start -->
+          <div class="w-full my-10 md:my-14 lg:my-16 xl:my-20 px-8 xl:px-20">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+
+                <!-- box -->
+                <div class="swiper-slide">
+                  <div
+                    class="w-full bg-white rounded-[10px] p-5 xl:p-[30px] border border-[#1D1D1D1A] anim dark:border-[#343941] dark:bg-transparent">
+                    <div class="w-full flex items-center gap-x-4">
+                      <img src="./assets/images/avatar-01.png" alt="avatar" class="w-10 h-10 rounded-full object-cover">
+
+                      <ul class="flex items-center gap-x-1">
+                        <li><a href="#"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                        <li><a href="#"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                        <li><a href="#"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                        <li><a href="#"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                        <li><a href="#" class="opacity-40"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                      </ul>
+                    </div>
+
+                    <h4 class="mt-5 mb-6 text-base font-medium text-first tracking-[0.54px] anim dark:text-white">David
+                      Milady / <span class="text-sm opacity-60 italic font-light">CEO</span></h4>
+
+                    <div class="text-start">
+                      <p class="text-sm font-light text-third leading-[160%] anim dark:text-dark-txt">Giopio's Figma to
+                        HT​ML con​version
+                        se​rvice was n​othing short of am​azing.
+                        Th​eir tea​m managed to take our intric​ate
+                        Figma d​esigns and turn​ sea​mlessly resp​
+                        onsive HTML masterpiece.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- box -->
+
+                <!-- box -->
+                <div class="swiper-slide">
+                  <div
+                    class="w-full bg-white rounded-[10px] p-5 xl:p-[30px] border border-[#1D1D1D1A] anim dark:border-[#343941] dark:bg-transparent">
+                    <div class="w-full flex items-center gap-x-4">
+                      <img src="./assets/images/avatar-01.png" alt="avatar" class="w-10 h-10 rounded-full object-cover">
+
+                      <ul class="flex items-center gap-x-1">
+                        <li><a href="#"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                        <li><a href="#"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                        <li><a href="#"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                        <li><a href="#"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                        <li><a href="#" class="opacity-40"><img src="./assets/images/star-icon.svg" alt="star"></a></li>
+                      </ul>
+                    </div>
+
+                    <h4 class="mt-5 mb-6 text-base font-medium text-first tracking-[0.54px] anim dark:text-white">David
+                      Milady / <span class="text-sm opacity-60 italic font-light">CEO</span></h4>
+
+                    <div class="text-start">
+                      <p class="text-sm font-light text-third leading-[160%] anim dark:text-dark-txt">Giopio's Figma to
+                        HT​ML con​version
+                        se​rvice was n​othing short of am​azing.
+                        Th​eir tea​m managed to take our intric​ate
+                        Figma d​esigns and turn​ sea​mlessly resp​
+                        onsive HTML masterpiece.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- box -->
+
+              </div>
+
+              <div class="text-center mt-12">
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+          </div>
+          <!-- review section end -->
+
+
+          <!-- contact start -->
+          <div class="w-full px-8 xl:px-20">
+            <div class="text-start">
+              <h4
+                class="text-first font-semibold text-2xl mb-5 xl:text-[28px] xl:mb-16 leading-[140%] anim dark:text-white">
+                Have An Idea? Just Leave <span class="xl:block"></span>
+                a Message!</h4>
+
+              <a href="mailto:example@gmail.com" class="text-lg font-semibold leading-8 text-second">
+                example@gmail.com</a>
+            </div>
+
+            <!-- contact form start -->
+            <div class="w-full mt-14 xl:mt-20">
+              <form class="flex flex-col gap-y-12 xl:gap-y-16">
+                <div class="block xl:grid xl:grid-cols-2 xl:gap-x-[50px]">
+                  <!-- input -->
+                  <div class="group mb-12 xl:mb-0">
+                    <input type="text" name="name" id="name" placeholder="Name"
+                      class="border-b bg-transparent border-[#1D1D1D] border-opacity-60 block anim dark:border-white dark:border-opacity-20 dark:placeholder:text-white dark:placeholder:opacity-60 w-full pb-4 font-normal text-lg h-[50px] focus-visible:outline-none text-second placeholder:text-third placeholder:opacity-90 focus-within:!border-third xl:text-lg xl:pb-6 dark:text-white">
+                  </div>
+                  <!-- input -->
+                  <!-- input -->
+                  <div class="group">
+                    <input type="email" name="email" id="email" placeholder="Email"
+                      class="border-b bg-transparent border-[#1D1D1D] border-opacity-60 block anim dark:border-white dark:border-opacity-20 dark:placeholder:text-white dark:placeholder:opacity-60 w-full pb-4 font-normal text-lg h-[50px] focus-visible:outline-none text-second placeholder:text-third placeholder:opacity-90 focus-within:!border-third xl:text-lg xl:pb-6 dark:text-white">
+                  </div>
+                  <!-- input -->
+                </div>
+                <!-- input -->
+                <div class="group">
+                  <input type="text" name="subject" id="subject" placeholder="Subject"
+                    class="border-b bg-transparent border-[#1D1D1D] border-opacity-60 block anim dark:border-white dark:border-opacity-20 dark:placeholder:text-white dark:placeholder:opacity-60 w-full pb-4 font-normal text-lg h-[50px] focus-visible:outline-none text-second placeholder:text-third placeholder:opacity-90 focus-within:!border-third xl:text-lg xl:pb-6 dark:text-white">
+                </div>
+                <!-- input -->
+                <!-- input -->
+                <div class="group">
+                  <input type="text" name="message" id="message" placeholder="Message"
+                    class="border-b bg-transparent border-[#1D1D1D] border-opacity-60 block anim dark:border-white dark:border-opacity-20 dark:placeholder:text-white dark:placeholder:opacity-60 w-full pb-4 font-normal text-lg h-[50px] focus-visible:outline-none text-second placeholder:text-third placeholder:opacity-90 focus-within:!border-third xl:text-lg xl:pb-6 dark:text-white">
+                </div>
+                <!-- input -->
+                <!-- submit -->
+                <div class="group sm:text-center xl:text-start xl:mt-10">
+                  <button type="submit"
+                    class="inline-flex items-center border-2 border-third rounded-full py-4 px-10 h-[67px] justify-center gap-x-2 text-lg font-medium text-first anim hover:bg-second hover:text-white xl:text-2xl xl:px-[50px] dark:text-white anim">Message</button>
+                </div>
+                <!-- submit -->
+
+              </form>
+            </div>
+            <!-- contact form end -->
+          </div>
+          <!-- contact end -->
+
+          <!-- footer start -->
+          <div class="px-8 xl:px-20">
+            <div
+              class="mt-10 xl:mt-20 text-center bg-[#9B3D350D] py-7 md:py-8 lg:py-10 xl:py-[42px] rounded-[10px] anim dark:bg-[#343941]">
+              <p class="text-first font-medium text-lg anim dark:text-dark-txt">&copy; 2024 Giopio. All rights reserved
+              </p>
+            </div>
+          </div>
+          <!-- footer end -->
+
+        </div>
+        <!-- main block -->
+      </div>
+    </div>
+  </section>
+  <!-- main section end -->
+
+
+  <!-- all scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./assets/js/counterup.js"></script>
+  <script src="./assets/js/review-slider.js"></script>
+  <script src="./assets/js/custom.js"></script>
+  <script src="./assets/js/custom-animation.js"></script>
+
+  <script>
+    function handleScroll() {
+      const myDiv = document.getElementById('mySidebar');
+      const scrollPosition = window.scrollY || window.pageYOffset;
+      const windowWidth = window.innerWidth;
+
+      if (windowWidth > 1025) {
+        if (scrollPosition > 235) {
+          myDiv.classList.add('fixed', 'top-2', '2xl:w-[400.66px]', 'z-[999]', 'bottom-2', 'xl:w-[360px]', 'lg:w-[352.66px]');
+        } else {
+          myDiv.classList.remove('fixed', 'top-2', '2xl:w-[400.66px]', 'z-[999]', 'bottom-2', 'xl:w-[360px]', 'lg:w-[352.66px]');
+        }
+      } else {
+        myDiv.classList.remove('fixed', 'top-2', '2xl:w-[400.66px]', 'z-[999]', 'bottom-2', 'xl:w-[360px]', 'lg:w-[352.66px]');
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleScroll);
+  </script>
+
+
+</body>
+
+</html>

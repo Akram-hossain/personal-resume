@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+/* *******************************************
+Project Name: RESUME SITE
+Project Version: 1.0.0
+CEO-FOUNDER: Jakarea Parvez
+Agency: GIOPIO
+URL: https://www.giopio.com
+Theme First color: #FF9040; 
+Theme Second color: #26404C;  
+Theme Primary Font Family: 'Plus Jakarta Sans', sans-serif;
+******************************************** */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+        @apply font-poppins
+    }
+
+    h1, h2 {
+        @apply font-roboto
+    }
+
+    button,
+    a,
+    input {
+        @apply focus-visible:outline-none;
+    }
+
+    /* light to dark */
+    .ltd {
+        @apply anim flex dark:hidden;
+    }
+
+    .dtl {
+        @apply anim hidden dark:flex;
+    }
+
+    .hero-bttn {
+        border-radius: 50px;
+        border: 1px solid var(--White-Color, #FFF);
+        background: rgba(76, 76, 76, 0.50);
+        padding: 12px 30px;
+        border-radius: 75px;
+    }
+
+    .menu-link {
+        @apply font-medium text-2xl text-white lg:text-base lg:text-first relative dark:text-white anim
+    }
+
+    .menu-link-2:before,
+    .menu-link:before {
+        position: absolute;
+        content: '';
+        left: 5%;
+        bottom: -3px;
+        width: 0%;
+        height: 1px;
+        transition: all linear .3s;
+        @apply bg-second
+    }
+
+    .menu-link.active:before,
+    .menu-link-2.active:before,
+    .menu-link-2:hover:before,
+    .menu-link:hover:before {
+        width: 90%;
+    }
+}
+
+/* slider overwrite css */
+.swiper-pagination-bullet {
+    width: 16px !important;
+    border-radius: 50px !important;
+    height: 8px !important;
+    background-color: #9B3D35;
+    opacity: 0.2
+}
+
+.dark .swiper-pagination-bullet {
+    background-color: #fff !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 30px !important;
+    @apply bg-second opacity-100
+}
+
+.anim {
+    @apply transition duration-500 ease-in-out;
+}
+
+/* custom responsive css */
+@media (min-width: 320px) and (max-width: 640px) {}
+
+@media (min-width: 641px) and (max-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: 1290px) {}
+
+@media (min-width: 1291px) {}
